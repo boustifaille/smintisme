@@ -18,9 +18,9 @@
     </button>
     <nav style={`visibility:${isMenuOpen ? "visible" : "hidden"};`}>
         <ul>
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/histoire">Histoire</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><a href="/" on:click={toggleMenu} >Accueil</a></li>
+            <li><a href="/histoire" on:click={toggleMenu} >Histoire</a></li>
+            <li><a href="/contact" on:click={toggleMenu} >Contact</a></li>
         </ul>
     </nav>
 </header>
