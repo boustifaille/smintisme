@@ -1,9 +1,16 @@
+<script>
+
+</script>
+
+
 <h1>Bienvenue dans le smintisme !</h1>
 
-<video controls autoplay  width="100%">
+<img src="SMINT.png" alt="SMINT" width="100%"/>
+
+<!-- <video autoplay width="100%" loop >
     <source src="propagande.mp4" type="video/mp4">
     <track kind="captions">
-</video>
+</video> -->
 
 <style>
     h1 {

@@ -12,7 +12,7 @@
 </script>
 
 <header>
-    <img src="smint_logo.png" alt="smint logo" height="40px"/>
+    <img src="smint_logo.png" alt="smint logo" height="35px"/>
     <button on:click={toggleMenu} class="btn-menu">
         <Menu color="white" height="40px" width="35px" />
     </button>
