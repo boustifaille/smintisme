@@ -70,6 +70,7 @@
     }
 
     .btn-menu {
-        background:none;
+        background: none;
+        cursor: pointer;
     }
 </style>

@@ -13,7 +13,7 @@
             <track kind="captions">
             </video> -->
             
-    <button class="histoire"> <a href="/histoire">Notre histoire</a> </button>
+    <button class="histoire"><a href="/histoire">Notre histoire</a></button>
 
     <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus exercitationem eos harum, nisi recusandae impedit doloribus molestiae ea quae ducimus enim reprehenderit unde tempora omnis! Molestiae necessitatibus ipsam eos est nihil aliquam nesciunt illum distinctio eaque ad eligendi atque tempore omnis sed aut, sint perferendis. Reiciendis temporibus velit nihil.</p>
 </div>
@@ -38,11 +38,4 @@
         width: "100%";
     }
 
-    button.histoire a {
-        padding: 10px;
-        background-color: var(--dark-blue);
-        color: white;
-        text-transform: uppercase;
-        cursor: pointer;
-    }
 </style>
