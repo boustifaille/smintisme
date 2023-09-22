@@ -22,6 +22,7 @@
             <li><a href="/histoire" on:click={toggleMenu} >Histoire</a></li>
             <li><a href="/contact" on:click={toggleMenu} >Contact</a></li>
         </ul>
+        <p class="citation">Au nom du Smint, du Xylitol et de la Sainte menthe</p>
     </nav>
 </header>
 
@@ -50,7 +51,7 @@
 
     nav ul {
         width: 100%;
-        height: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -61,6 +62,11 @@
     nav a {
         color: white;
         font-size: 2rem;
+    }
+
+    p.citation {
+        color: white;
+        text-align: center;
     }
 
     .btn-menu {
