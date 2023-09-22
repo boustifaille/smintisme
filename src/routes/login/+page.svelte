@@ -6,7 +6,7 @@
     <Account height=100 width=100 />
 </div>
 
-<form>
+<form method="post">
     <input placeholder="Email..." type="email" />
     <input placeholder="Mot de passe..." type="password" />
     <button type="submit" >Se connecter</button>
