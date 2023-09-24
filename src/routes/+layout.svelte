@@ -40,10 +40,10 @@
 <main>
     <slot />
 </main>
-<!-- 
+
 <footer>
 
-</footer> -->
+</footer>
 
 <style>
     header {
@@ -56,11 +56,6 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
-    }
-
-    footer {
-        position: absolute;
-        bottom: 0;
     }
 
     nav {
@@ -99,5 +94,12 @@
 
     main {
         margin-top: 50px;
+        min-height: calc(100vh - 50px);
+    }
+
+    footer {
+        height: 50px;
+        width: 100%;
+        background-color: var(--dark-blue);
     }
 </style>
