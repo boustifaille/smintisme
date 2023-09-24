@@ -19,7 +19,7 @@
     </button>
     <nav style={`visibility:${isMenuOpen ? "visible" : "hidden"};`}>
         <ul>
-            <!-- <Account color="white" height=50 width=50 /> -->
+            <a href="/login" on:click={toggleMenu} ><Account color="white" height=50 width=50 /></a>
             <li><a href="/" on:click={toggleMenu} >Accueil</a></li>
             <li><a href="/histoire" on:click={toggleMenu} >Histoire</a></li>
             <li><a href="/contact" on:click={toggleMenu} >Contact</a></li>
