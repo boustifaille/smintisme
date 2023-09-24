@@ -37,10 +37,18 @@
     </nav>
 </header>
 
-<slot />
+<main>
+    <slot />
+</main>
+<!-- 
+<footer>
+
+</footer> -->
 
 <style>
     header {
+        position: fixed;
+        top: 0;
         background-color: var(--dark-blue);
         height: 50px;
         width: 100vw;
@@ -50,12 +58,17 @@
         padding: 0 20px;
     }
 
-    nav {
+    footer {
         position: absolute;
+        bottom: 0;
+    }
+
+    nav {
+        position: fixed;
         top: 50px;
         left: 0;
         width: 100vw;
-        height: 100%;
+        height: calc(100vh - 50px);
         background-color: var(--dark-blue);
     }
 
@@ -82,5 +95,9 @@
     .btn-menu {
         background: none;
         cursor: pointer;
+    }
+
+    main {
+        margin-top: 50px;
     }
 </style>
