@@ -20,7 +20,7 @@
 
     $: pageName = $page.url.pathname !== "/" ? $page.url.pathname.substring(1, $page.url.pathname.length) : "home";
 
-    inject({mode : dev ? "development" : "production"});
+    inject({mode : dev ? "development" : "production"}); // vercel analytics
 </script>
 
 <svelte:head>
