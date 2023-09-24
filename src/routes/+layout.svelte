@@ -1,5 +1,7 @@
 <script>
-    import "../app.css"
+	import { page } from '$app/stores';
+
+    import "../app.css";
 
     import Menu from "svelte-material-icons/Menu.svelte";
     import Account from "svelte-material-icons/Account.svelte";
@@ -11,7 +13,13 @@
         isMenuOpen = !isMenuOpen;
     }
 
+    $: pageName = $page.url.pathname !== "/" ? $page.url.pathname.substring(1, $page.url.pathname.length) : "home";
+
 </script>
+
+<svelte:head>
+    <title>Smintisme - {pageName}</title>
+</svelte:head>
 
 <header>
     <a href="/">
