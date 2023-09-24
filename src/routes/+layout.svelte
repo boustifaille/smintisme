@@ -2,7 +2,8 @@
     import "../app.css"
 
     import Menu from "svelte-material-icons/Menu.svelte";
-    import Account from "svelte-material-icons/Account.svelte"
+    import Account from "svelte-material-icons/Account.svelte";
+    import Close from "svelte-material-icons/Close.svelte";
 
     let isMenuOpen = false;
 
@@ -14,9 +15,15 @@
 
 <header>
     <img src="smint_logo.png" alt="smint logo" height="35px"/>
+    
     <button on:click={toggleMenu} class="btn-menu">
-        <Menu color="white" height="40px" width="35px" />
+        {#if isMenuOpen}
+            <Close color="white" height="40px" width="35px" />
+        {:else}
+            <Menu color="white" height="40px" width="35px" />
+        {/if}
     </button>
+
     <nav style={`visibility:${isMenuOpen ? "visible" : "hidden"};`}>
         <ul>
             <a href="/login" on:click={toggleMenu} ><Account color="white" height=50 width=50 /></a>
@@ -48,7 +55,6 @@
         width: 100vw;
         height: 100%;
         background-color: var(--dark-blue);
-        /* transition: visibility 1s; */
     }
 
     nav ul {
