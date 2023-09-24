@@ -1,4 +1,7 @@
 <script>
+    import { dev } from "$app/environment";
+    import { inject }from "@vercel/analytics"
+
 	import { page } from '$app/stores';
 
     import "../app.css";
@@ -17,6 +20,7 @@
 
     $: pageName = $page.url.pathname !== "/" ? $page.url.pathname.substring(1, $page.url.pathname.length) : "home";
 
+    inject({mode : dev ? "development" : "production"});
 </script>
 
 <svelte:head>
