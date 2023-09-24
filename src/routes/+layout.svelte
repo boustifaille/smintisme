@@ -3,6 +3,8 @@
 
     import "../app.css";
 
+    import smint_logo from "$lib/assets/smint_logo.png";
+
     import Menu from "svelte-material-icons/Menu.svelte";
     import Account from "svelte-material-icons/Account.svelte";
     import Close from "svelte-material-icons/Close.svelte";
@@ -23,7 +25,7 @@
 
 <header>
     <a href="/">
-        <img src="smint_logo.png" alt="smint logo" height="35px"/>
+        <img src={smint_logo} alt="smint logo" height="35px"/>
     </a>
 
     <button on:click={toggleMenu} class="btn-menu">
