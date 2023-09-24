@@ -14,8 +14,10 @@
 </script>
 
 <header>
-    <img src="smint_logo.png" alt="smint logo" height="35px"/>
-    
+    <a href="/">
+        <img src="smint_logo.png" alt="smint logo" height="35px"/>
+    </a>
+
     <button on:click={toggleMenu} class="btn-menu">
         {#if isMenuOpen}
             <Close color="white" height="40px" width="35px" />
