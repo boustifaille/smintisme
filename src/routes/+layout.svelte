@@ -42,7 +42,7 @@
 </main>
 
 <footer>
-
+    <p style="color: white;">Copyright © 2023 Smintisme</p>
 </footer>
 
 <style>
@@ -94,12 +94,16 @@
 
     main {
         margin-top: 50px;
-        min-height: calc(100vh - 50px);
+        min-height: calc(100vh - 70px);
     }
 
     footer {
         height: 50px;
         width: 100%;
         background-color: var(--dark-blue);
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
