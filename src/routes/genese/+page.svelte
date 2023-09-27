@@ -5,10 +5,6 @@
 </p>
 
 <style>
-    h1 {
-        text-align: center;
-        margin: 20px 0;
-    }
 
     span {
         font-style: italic;

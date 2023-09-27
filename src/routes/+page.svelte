@@ -27,11 +27,6 @@
         flex-direction: column;
         gap: 50px;
     }
-
-    h1 {
-        margin-top: 10px;
-        text-align: center;
-    }
     video {
         object-fit: contain;
         width: "100%";
