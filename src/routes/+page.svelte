@@ -26,7 +26,6 @@
         align-items: center;
         flex-direction: column;
         gap: 50px;
-        padding: 10px;
     }
 
     h1 {

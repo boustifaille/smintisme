@@ -1,6 +1,6 @@
 <script>
     import { dev } from "$app/environment";
-    import { inject }from "@vercel/analytics"
+    // import { inject }from "@vercel/analytics"
 
 	import { page } from '$app/stores';
 
@@ -20,7 +20,7 @@
 
     $: pageName = $page.url.pathname !== "/" ? $page.url.pathname.substring(1, $page.url.pathname.length) : "home";
 
-    inject({mode : dev ? "development" : "production"}); // vercel analytics
+    // inject({mode : dev ? "development" : "production"}); // vercel analytics
 </script>
 
 <svelte:head>
@@ -45,6 +45,7 @@
             <!-- <a href="/login" on:click={toggleMenu} ><Account color="white" height=50 width=50 /></a> -->
             <li><a href="/" on:click={toggleMenu} >Accueil</a></li>
             <li><a href="/histoire" on:click={toggleMenu} >Histoire</a></li>
+            <li><a href="/genese" on:click={toggleMenu}>Genèse</a></li>
             <li><a href="/contact" on:click={toggleMenu} >Contact</a></li>
         </ul>
         <p class="citation">Au nom du Smint, du Xylitol et de la Sainte menthe</p>
@@ -109,6 +110,7 @@
     main {
         margin-top: 50px;
         min-height: calc(100vh - 70px);
+        padding: 10px;
     }
 
     footer {
