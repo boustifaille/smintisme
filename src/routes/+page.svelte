@@ -31,7 +31,6 @@
     h1 {
         margin-top: 10px;
         text-align: center;
-        font-size: 3rem;
     }
     video {
         object-fit: contain;

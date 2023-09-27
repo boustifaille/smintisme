@@ -16,6 +16,10 @@
     list-style: none;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 button {
     padding: 10px;
     background-color: var(--dark-blue);
