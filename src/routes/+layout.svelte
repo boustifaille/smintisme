@@ -71,6 +71,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
+        z-index: 10;
     }
 
     nav {
