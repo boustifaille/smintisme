@@ -7,6 +7,10 @@
         {
             date: "23 sept. 23",
             description: "Création du site internet"
+        },
+        {
+            date: "Maintenant",
+            description: ""
         }
     ]
 </script>
@@ -25,12 +29,13 @@
 <style>
 
     .ligne {
-        height: 600px;
+        height: 100%;
         width: calc(100% - 50px);
         border-left: 2px solid var(--dark-blue);
         margin-left: 50px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         gap: 50px;
     }
 
