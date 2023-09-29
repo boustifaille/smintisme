@@ -49,18 +49,19 @@
         <button class="histoire"><a href="/histoire">Notre histoire</a></button>
     </div>
 
-    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus exercitationem eos harum, nisi recusandae impedit doloribus molestiae ea quae ducimus enim reprehenderit unde tempora omnis! Molestiae necessitatibus ipsam eos est nihil aliquam nesciunt illum distinctio eaque ad eligendi atque tempore omnis sed aut, sint perferendis. Reiciendis temporibus velit nihil.</p>
-
     <h2 style="border-top: 1px solid var(--dark-blue); width:80%; text-align:center; padding-top:10px;">News</h2>
+
     <div class="news">
         {#each allNews as news}
-            <div class="new">
-                <div class="titre" style="font-size: 1.5rem;">{news.titre}</div>
-                <div class="date">{news.date}</div>
-                <div class="description">{news.description}</div>
-            </div>
+        <div class="new">
+            <div class="titre" style="font-size: 1.5rem;">{news.titre}</div>
+            <div class="date">{news.date}</div>
+            <div class="description">{news.description}</div>
+        </div>
         {/each}
     </div>
+    
+    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus exercitationem eos harum, nisi recusandae impedit doloribus molestiae ea quae ducimus enim reprehenderit unde tempora omnis! Molestiae necessitatibus ipsam eos est nihil aliquam nesciunt illum distinctio eaque ad eligendi atque tempore omnis sed aut, sint perferendis. Reiciendis temporibus velit nihil.</p>
 
 
     <div class="btn-txt">
