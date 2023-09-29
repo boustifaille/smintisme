@@ -13,10 +13,18 @@
         <source src={video} type="video/mp4">
             <track kind="captions">
             </video> -->
-            
-    <button class="histoire"><a href="/histoire">Notre histoire</a></button>
+    
+    <div class="btn-txt">
+        <p>Découvrez notre histoire</p>
+        <button class="histoire"><a href="/histoire">Notre histoire</a></button>
+    </div>
 
     <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus exercitationem eos harum, nisi recusandae impedit doloribus molestiae ea quae ducimus enim reprehenderit unde tempora omnis! Molestiae necessitatibus ipsam eos est nihil aliquam nesciunt illum distinctio eaque ad eligendi atque tempore omnis sed aut, sint perferendis. Reiciendis temporibus velit nihil.</p>
+
+    <div class="btn-txt">
+        <p>Vous avez une question ou avez besoin d'aide? Contactez-nous!</p>
+        <button><a href="/contact">Contactez-nous</a></button>
+    </div>
 </div>
 
 <style>
@@ -30,6 +38,14 @@
     video {
         object-fit: contain;
         width: "100%";
+    }
+
+    .btn-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
     }
 
 </style>
