@@ -3,32 +3,32 @@
     import video from "$lib/assets/propagande.mp4";
 
     const allNews = [
-    {
-        titre: "Tech Giant Announces Breakthrough in AI Research",
-        description: "In a groundbreaking development, TechCorp unveiled a new AI algorithm that promises to revolutionize industries worldwide.",
-        date: "2023-09-15"
-    },
-    {
-        titre: "Global Summit Addresses Climate Change Crisis",
-        description: "World leaders gathered at the Climate Summit to discuss urgent measures to combat the escalating climate change threat.",
-        date: "2023-08-28"
-    },
-    {
-        titre: "New Medical Discovery Offers Hope for Rare Disease Patients",
-        description: "Scientists have discovered a potential treatment for a rare genetic disorder, bringing hope to affected families.",
-        date: "2023-07-10"
-    },
-    {
-        titre: "Space Agency Plans Ambitious Mission to Explore Exoplanets",
-        description: "NASA announces plans for a groundbreaking mission to explore distant exoplanets in the search for habitable environments.",
-        date: "2023-06-02"
-    },
-    {
-        titre: "Celebrity Chef Launches Unique Restaurant Concept",
-        description: "Renowned chef Emma Gordon introduces a one-of-a-kind dining experience that combines art, food, and technology.",
-        date: "2023-05-15"
-    }
-]
+        {
+            titre: "Tech Giant Announces Breakthrough in AI Research",
+            description: "In a groundbreaking development, TechCorp unveiled a new AI algorithm that promises to revolutionize industries worldwide.",
+            date: "2023-09-15"
+        },
+        {
+            titre: "Global Summit Addresses Climate Change Crisis",
+            description: "World leaders gathered at the Climate Summit to discuss urgent measures to combat the escalating climate change threat.",
+            date: "2023-08-28"
+        },
+        {
+            titre: "New Medical Discovery Offers Hope for Rare Disease Patients",
+            description: "Scientists have discovered a potential treatment for a rare genetic disorder, bringing hope to affected families.",
+            date: "2023-07-10"
+        },
+        {
+            titre: "Space Agency Plans Ambitious Mission to Explore Exoplanets",
+            description: "NASA announces plans for a groundbreaking mission to explore distant exoplanets in the search for habitable environments.",
+            date: "2023-06-02"
+        },
+        {
+            titre: "Celebrity Chef Launches Unique Restaurant Concept",
+            description: "Renowned chef Emma Gordon introduces a one-of-a-kind dining experience that combines art, food, and technology.",
+            date: "2023-05-15"
+        }
+    ]
 
 
 </script>
@@ -51,10 +51,11 @@
 
     <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus exercitationem eos harum, nisi recusandae impedit doloribus molestiae ea quae ducimus enim reprehenderit unde tempora omnis! Molestiae necessitatibus ipsam eos est nihil aliquam nesciunt illum distinctio eaque ad eligendi atque tempore omnis sed aut, sint perferendis. Reiciendis temporibus velit nihil.</p>
 
+    <h2 style="border-top: 1px solid var(--dark-blue); width:80%; text-align:center; padding-top:10px;">News</h2>
     <div class="news">
         {#each allNews as news}
             <div class="new">
-                <div class="titre">{news.titre}</div>
+                <div class="titre" style="font-size: 1.5rem;">{news.titre}</div>
                 <div class="date">{news.date}</div>
                 <div class="description">{news.description}</div>
             </div>
@@ -74,7 +75,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
     }
     /* video {
         object-fit: contain;
@@ -95,10 +96,6 @@
         min-width: 100%;
         display: flex;
         flex-direction: column;
-    }
-
-    .new .titre {
-        font-size: 1.5rem;
     }
 
     .new .date {
