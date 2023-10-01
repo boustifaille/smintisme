@@ -2,7 +2,7 @@
     import Account from "svelte-material-icons/Account.svelte"
 </script>
 
-<div>
+<div class="logo-container">
     <Account height=100 width=100 />
 </div>
 
@@ -12,27 +12,30 @@
     <button type="submit" >Se connecter</button>
 </form>
 
+<div class="link-container">
+    <a href="/register">Je n'ai pas de compte?</a>
+</div>
+
 
 <style>
-    div {
+    .logo-container {
         width: 100%;
         height: 40vh;
         display: grid;
         place-items: center;
     }
+
+    .link-container {
+        text-align: center;
+        margin-top: 5px;
+    }
+
     form {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
         gap: 20px;
-        height: 40vh;
-    }
-
-    form input {
-        border: 1px solid var(--dark-blue);
-        padding: 5px;
-        width: min(80%, 300px);
     }
 
 </style>
