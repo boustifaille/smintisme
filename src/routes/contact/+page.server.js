@@ -1,4 +1,5 @@
 import db from '$lib/db.js';
+import { redirect } from '@sveltejs/kit';
 
 
 export const actions = {
@@ -12,5 +13,7 @@ export const actions = {
             name:nom,
             message,
         });
+
+        throw redirect(302, "/");
     }
 };
