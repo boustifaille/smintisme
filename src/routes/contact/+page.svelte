@@ -4,9 +4,10 @@
 <p><a href="mailto:smintisme-contact@proton.me">smintisme-contact@proton.me</a></p>
 
 <p style="margin-top: 10px;">Ou avec le formulaire ci-dessous :</p>
-<form>
-    <input placeholder="Votre nom..."/>
-    <textarea class="texte" placeholder="Le message..."/>
+
+<form action="/contact" method="post">
+    <input placeholder="Votre nom..." name="nom"/>
+    <textarea class="texte" placeholder="Le message..." name="message"/>
     <button type="submit">Envoyer</button>
 </form>
 
