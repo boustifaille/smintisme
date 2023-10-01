@@ -1,7 +1,6 @@
 import db from '$lib/db.js';
 import { redirect } from '@sveltejs/kit';
 
-
 export const actions = {
     default: async ({ cookies, request }) => {
         const data = await request.formData();
