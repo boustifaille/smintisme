@@ -19,14 +19,11 @@ export const actions = {
         const user = await db.collection("users").findOne({email:email});
 
         if (!email || !password || !user) return;
-
-        const password_hash = await argon2.hash(password.toString());
-
         
-        if (user.password !== password_hash) return;
+        if (!argon2.verify(user.password, password.toString())) return;
 
         const token = crypto.randomUUID();
-        await db.collection('users').updateOne({email : email}, {authToken : token}); // update the auth token of the user
+        await db.collection('users').updateOne({email : email}, {$set: {authToken : token}}); // update the auth token of the user
 
         cookies.set("session", token, {
             path : "/",
