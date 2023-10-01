@@ -40,7 +40,7 @@
         {/if}
     </button>
 
-    <nav style={`visibility:${isMenuOpen ? "visible" : "hidden"};`}>
+    <nav data-open={isMenuOpen.toString()}>
         <ul>
             <!-- <a href="/login" on:click={toggleMenu} ><Account color="white" height=50 width=50 /></a> -->
             <li><a href="/" on:click={toggleMenu} >Accueil</a></li>
@@ -81,6 +81,12 @@
         width: 100vw;
         height: calc(100vh - 50px);
         background-color: var(--dark-blue);
+        transition: transform 0.1s;
+        transform: translateX(100%);
+    }
+
+    nav[data-open="true"] {
+        transform: translateX(0);
     }
 
     nav ul {
