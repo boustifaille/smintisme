@@ -9,6 +9,8 @@
 
 <h2>Rejoignez-nous</h2>
 <p>N'importe qui peut rejoindre s'il veut, il suffit de nous contacter avec le formulaire ici : <a href="/contact">Contact</a> et hop, vous voici sur le chemin de la fraîcheur mentholée</p>
+<br>
+<button><a href="/histiore">En apprendre plus sur notre histoire</a></button>
 
 <style>
     h2 {
