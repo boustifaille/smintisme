@@ -14,5 +14,4 @@
     h2 {
         margin: 20px 0;
     }
-    
 </style>
