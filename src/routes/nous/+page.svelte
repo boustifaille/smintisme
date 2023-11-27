@@ -13,6 +13,5 @@
 <style>
     h2 {
         margin: 20px 0;
-        color: var(--dark-blue);
     }
 </style>
