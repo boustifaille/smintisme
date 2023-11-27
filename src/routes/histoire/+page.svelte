@@ -1,7 +1,7 @@
 <script>
     const histoire = [
         {
-            date: "09 avr. 23",
+            date: "13 jan. 23",
             description : "Création du smintisme"
         },
         {
@@ -25,6 +25,8 @@
 {/each}
 
 </div>
+
+
 
 <style>
 
