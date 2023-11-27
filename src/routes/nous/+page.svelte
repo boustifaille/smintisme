@@ -13,5 +13,6 @@
 <style>
     h2 {
         margin: 20px 0;
+        background-color: var(--dark-blue);
     }
 </style>
