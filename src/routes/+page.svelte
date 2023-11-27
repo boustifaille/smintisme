@@ -4,30 +4,30 @@
 
     const allNews = [
         {
-            titre: "Tech Giant Announces Breakthrough in AI Research",
-            description: "In a groundbreaking development, TechCorp unveiled a new AI algorithm that promises to revolutionize industries worldwide.",
-            date: "2023-09-15"
+            titre: "50 membres 🎉",
+            description: "Le groupe a ateint les 50 membres. Nous attendons donc une fête ou un événement.",
+            date: "2023-11-28"
         },
         {
-            titre: "Global Summit Addresses Climate Change Crisis",
-            description: "World leaders gathered at the Climate Summit to discuss urgent measures to combat the escalating climate change threat.",
-            date: "2023-08-28"
+            titre: "Status publiés",
+            description: "Les status de l'association sont maintenant disponibles ! Ils permettent de mieux clarifier nos buts et notre organisation",
+            date: "2023-11-23"
         },
-        {
-            titre: "New Medical Discovery Offers Hope for Rare Disease Patients",
-            description: "Scientists have discovered a potential treatment for a rare genetic disorder, bringing hope to affected families.",
-            date: "2023-07-10"
-        },
-        {
-            titre: "Space Agency Plans Ambitious Mission to Explore Exoplanets",
-            description: "NASA announces plans for a groundbreaking mission to explore distant exoplanets in the search for habitable environments.",
-            date: "2023-06-02"
-        },
-        {
-            titre: "Celebrity Chef Launches Unique Restaurant Concept",
-            description: "Renowned chef Emma Gordon introduces a one-of-a-kind dining experience that combines art, food, and technology.",
-            date: "2023-05-15"
-        }
+        // {
+        //     titre: "New Medical Discovery Offers Hope for Rare Disease Patients",
+        //     description: "Scientists have discovered a potential treatment for a rare genetic disorder, bringing hope to affected families.",
+        //     date: "2023-07-10"
+        // },
+        // {
+        //     titre: "Space Agency Plans Ambitious Mission to Explore Exoplanets",
+        //     description: "NASA announces plans for a groundbreaking mission to explore distant exoplanets in the search for habitable environments.",
+        //     date: "2023-06-02"
+        // },
+        // {
+        //     titre: "Celebrity Chef Launches Unique Restaurant Concept",
+        //     description: "Renowned chef Emma Gordon introduces a one-of-a-kind dining experience that combines art, food, and technology.",
+        //     date: "2023-05-15"
+        // }
     ]
 
 
